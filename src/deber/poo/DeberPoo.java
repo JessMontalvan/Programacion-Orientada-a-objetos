@@ -17,6 +17,10 @@ public class DeberPoo {
         Scanner div=new Scanner(System.in);
         Division di=new Division(div.nextInt(),div.nextInt());
         System.out.println("El resultado de la division es: "+di.dividir());
+        Scanner mul=new Scanner(System.in);
+        System.out.println("Ingrese lod valores para la multiplicacion");
+        Multiplicacion mult = new Multiplicacion(mul.nextInt(),mul.nextInt());
+        System.out.println("El resultado de la multiplicacion es: "+mult.multiplicar());
     }
 
 }
