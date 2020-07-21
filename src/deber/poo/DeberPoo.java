@@ -13,6 +13,10 @@ public class DeberPoo {
         Scanner resta=new Scanner(System.in);
         Resta res = new Resta(resta.nextInt(),resta.nextInt());
         System.out.println("El resultado de la resta es: "+ res.restar());
+        System.out.println("Ingrese dos numeros para dividir");
+        Scanner div=new Scanner(System.in);
+        Division di=new Division(div.nextInt(),div.nextInt());
+        System.out.println("El resultado de la division es: "+di.dividir());
     }
 
 }
